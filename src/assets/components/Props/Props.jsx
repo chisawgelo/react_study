@@ -1,9 +1,9 @@
-
+import React from 'react';
 
 const Props = (props) => {
     return (
         <div>
-            Hello {props.name} {props.age}
+            Hello {props.name}
         </div>
     );
 };

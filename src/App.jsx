@@ -1,12 +1,11 @@
-import React from 'react';
-import Props from "./assets/components/Props/Props.jsx";
-import Form from "./assets/components/Form/Form.jsx";
+import NewComponent from "./assets/components/NewComponent/NewComponent.jsx";
+import HomeWork from "./assets/components/Todo/HomeWork.jsx";
+
 
 const App = () => {
     return (
         <div>
-            {/*<Props name={'Oleg'} age={20}/>*/}
-            <Form/>
+            <HomeWork/>
         </div>
     );
 };

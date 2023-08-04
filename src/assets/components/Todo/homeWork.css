@@ -1,0 +1,22 @@
+.container {
+    background: black;
+    padding-top: 20px;
+}
+.container__item {
+    color: aliceblue;
+    margin: 0 auto 30px;
+    max-width: 600px;
+    padding: 25px 20px;
+    border: 1px solid #F802BCFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__btn {
+    background: #F802BCFF;
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: none;
+}
